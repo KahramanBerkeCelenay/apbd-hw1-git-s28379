@@ -8,9 +8,24 @@ public static void SayHello() {
 
 public static void PrintNumbers(int[] values) 
 {
-    foreach (var v in values) {
+	foreach (var v in values) {
         Console.Write(v + " "); //Commit 3
-    }
+        }
 }
 
+public static double CalculateAverage(int[] numbers)
+{
+	int sum = 0;
+	foreach (var n in numbers) sum += n; //Commit 4
+	return (double)sum / numbers.Length;
+}
 
+public static int CalculateMax(int[] numbers)
+{
+	int max = numbers[0];
+	foreach (var n in numbers)
+	{
+		if (n > max) max = n;  //Commit 5
+	}                             
+	return max;
+}
