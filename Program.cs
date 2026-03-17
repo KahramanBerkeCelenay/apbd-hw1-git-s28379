@@ -30,3 +30,10 @@ public static int CalculateMax(int[] numbers)
 	}                             
 	return max;
 }
+
+
+
+public static int CalculateMin(int[] numbers)
+{
+    return 0; //Commit 6
+}
