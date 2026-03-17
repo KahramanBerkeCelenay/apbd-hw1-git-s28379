@@ -35,5 +35,10 @@ public static int CalculateMax(int[] numbers)
 
 public static int CalculateMin(int[] numbers)
 {
-    return 0; //Commit 6
+	int min = numbers[0];
+	foreach (var n in numbers)
+	{
+        if (n < min) min = n;
+	}
+	return min;
 }
