@@ -5,6 +5,7 @@ public static void SayHello() { //Main Program
 
 	int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }
 	Console.WriteLine("Array initialized."); //Commit 2
+	Console.WriteLine("Conflict Test 1");
 }
 
 public static void PrintNumbers(int[] values) 
